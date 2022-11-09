@@ -1,9 +1,9 @@
 <template>
-  <Tutorial/>
+  <section class="container">
+    <p>hello world</p>
+  </section>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
+export default {}
 </script>
