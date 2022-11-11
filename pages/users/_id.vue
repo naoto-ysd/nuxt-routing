@@ -13,10 +13,10 @@
     data: function(){
       return{
         message: 'users/_id.vueを表示'
-      },
-      validate({ params }) {
-        return /^\d+$/.test(params.id)
       }
+    },
+    validate({ params }) {
+      return /^\d+$/.test(params.id)
     }
   }
 </script>
